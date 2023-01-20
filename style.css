@@ -1,0 +1,170 @@
+/* Navbar */
+#position{
+    position: fixed;
+    z-index: 3;
+}
+#navbar{
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+    background-color: #0F1111;
+    height: 55px;
+}
+#searchbar{
+    margin-top: 8px;
+    border: 1px solid white;
+    width: 55%;
+    height: 34px;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+}
+#a1{
+    background-color: #93a0ce;
+    height: 100%;
+    width: 19%;
+}
+#searchAll{
+    border: 0px solid red;
+    width: 100%;
+    height: 100%;
+    background-color:#F3F3F3;
+    height : 100%;
+    text-align: center;  
+}
+#a2{
+    background-color: #93a0ce;
+    height: 100%;
+    width: 75%;
+}
+#search{
+    border: 0px solid red;
+    width: 100%;
+    height: 98%;
+    background-color: #FFFF;
+}
+#a3{
+    width:6%;
+    border: 2px solid rgb(209, 129, 60);
+    height:100%;
+    background-color: rgb(209, 129, 60);
+    height: 99%;
+    border-radius: 0px 5px 5px 0px;
+    
+}
+#sa3{
+    margin-top: 10px;
+    color: #0F1111;
+}
+#a4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid white; */
+    width: 3.5%;
+}
+#A1{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid white; */
+    width: 10%;
+    height: 98%;
+}
+#in{
+    font-size: 16px;
+    width: 20%;
+}
+#A1 img, #a4 img{
+    margin-top: 2px;
+    width: 92%;
+    height: 100%;
+    text-align: center;
+}
+#A2,#a4,#a5,#a6,#a7{
+    padding: 7px 0px 0px 5px;
+}
+#A1:hover, #a5:hover, #a6:hover, #a7:hover,#a4:hover,#A2:hover,.one:hover{
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+/* ***** */
+
+/* second navbar */
+
+#second_nav{
+    display: flex;
+    justify-content: space-evenly;
+    color:#FFFF;
+    background-color: hsla(266, 38%, 19%, 0.812);
+    align-items: center;
+    height: 50px;
+    padding-top: 5px;
+}
+#dash{
+    display: flex;
+    width: 3%;
+    justify-content: space-evenly;
+}
+.one{
+    padding: 5px;
+}
+
+/* ***** */
+
+
+/* mid page */
+
+#absolute{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    position:absolute;
+    top: 45%;
+    
+}
+#absolute h3{
+    font-size: 21px;
+    color: #0F1111;
+    font-weight: bold;
+}
+.product{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    
+}
+.pdiv{
+    width: 98%;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
+    background-color: #FFFFFF;
+    padding: 10px 20px 10px 20px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.product div p,#p{
+    font-size: 12px;
+    color: #0F1111;
+    font-weight: 500;
+}
+.pdiv p{
+    color: #007185;
+}
+img{
+    width: 100%;
+}
+#special{
+    height: 150px;
+}
+
+
+/* ***** */
