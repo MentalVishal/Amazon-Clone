@@ -14,3 +14,22 @@ productContainers.forEach((item, i) => {
         item.scrollLeft -= containerWidth;
     })
 })
+
+
+Name = document.getElementById("naam");
+address = document.getElementById("d_add");
+pincode = document.getElementById("pincode");
+fname = document.getElementById("fname");
+
+loguser = JSON.parse(localStorage.getItem("login_user"));
+console.log(loguser.Name);
+
+if(loguser!=null){
+    Name.innerText=loguser.Name;
+    address.innerText=loguser.City;
+    pincode.innerText= loguser.Pincode;
+    fname.innerText= loguser.Name;
+}
+
+
+
