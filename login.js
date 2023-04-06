@@ -13,7 +13,7 @@ form.addEventListener("submit", (Event)=>{
                     alert("login Successful")
                     flag = true;
                     localStorage.setItem("login_user",JSON.stringify(element));
-                    window.location.replace("http://127.0.0.1:5501/halting-tendency-8264/index.html#")
+                    window.location.replace("index.html")
                 }
             });
             if(flag==false){

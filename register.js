@@ -15,7 +15,7 @@ form.addEventListener("submit", (Event)=>{
         }
         userdata.push(data)
         localStorage.setItem("register", JSON.stringify(userdata));
-        window.location.replace("http://127.0.0.1:5501/halting-tendency-8264/login.html")
+        window.location.replace("login.html")
     }else{
         alert("Check Your Password")
     }
